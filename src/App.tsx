@@ -1,10 +1,6 @@
 import { Suspense, lazy } from "react";
 import "./App.css";
 import { HeroSection } from "./features/hero/Hero";
-// import { AboutMe } from "./features/about/About";
-// import { ContactMe } from "./features/contact/Contact";
-// import { ProjectSection } from "./features/projects/ProjectSection";
-
 const ProjectSection = lazy(() =>
   import("./features/projects/ProjectSection").then((module) => ({
     default: module.ProjectSection,
