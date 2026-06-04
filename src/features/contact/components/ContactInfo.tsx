@@ -11,7 +11,7 @@ export const ContactInfo = ({ links }: ContactInfoProps) => {
       <div className={s.contact}>
         <h2>CONTACTO</h2>
         <address>
-          <p title="Email">juansimontellezduran@gmail.com</p>
+          <p title="Email">simontellez05@gmail.com</p>
           <p title="Número de teléfono">+57 316 8505764</p>
         </address>
       </div>
